@@ -2,6 +2,12 @@
 
 A Go-based REST API that interfaces with the partasala.is website to retrieve information about car brands, available cars, and their images.
 
+## 🌐 Live Server
+
+**Live API:** [http://kristofer.is:1667/](http://kristofer.is:1667/)
+
+The API is currently running and available for public use!
+
 ## Features
 
 - 🚗 Get list of all car brands

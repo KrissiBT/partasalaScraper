@@ -54,8 +54,8 @@ func main() {
 	r.HandleFunc("/search", searchCarsHandler).Methods("GET")
 
 	log.Println("Starting Partasala.is Scraper API...")
-	log.Println("API Documentation: http://localhost:8080/")
-	log.Fatal(http.ListenAndServe(":8080", r))
+	log.Println("API Documentation: http://localhost:1667/")
+	log.Fatal(http.ListenAndServe(":1667", r))
 }
 
 func corsMiddleware(next http.Handler) http.Handler {
